@@ -1,0 +1,103 @@
+body{ 
+    background: rgba(126, 134, 134, 0.205);
+}
+.gud{
+    width: 350px;
+    height: 380px;
+    background: linear-gradient(to top , rgba(40, 202, 150, 0.5)50%, rgba(40, 202, 150, 0.5)50%);
+    position: absolute;
+    top:100px;
+    right: 500px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+ h1{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(249, 165, 21);
+    font-size: 22px;
+    background-color: rgba(238, 230, 230, 0.877);
+    border-radius: 10px;
+    margin: 2px;
+    border: 8px;
+
+}
+
+.gud input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(249, 165, 21);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+
+}
+
+.gud input :focus{
+outline: none;
+
+}
+
+::placeholder{
+    color: rgb(12, 11, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.lib button  {
+    border: 0;
+    border-radius: 10px;
+    background: rgb(249, 165, 21);
+    
+}
+
+#navbar {
+    background-color: #46b8b4f5;
+    border-radius: 10px;
+    margin: 0;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px;
+}
+  .lib button:hover
+{
+   
+    background-color: #ecc573f5;
+    text-transform: uppercase;
+transform:translate(5px,5%)
+    
+}
+.select {
+    border-radius: 10px;
+   background-color: white
+   
+}
+.lib select {
+
+    border-radius: 15px;
+   
+}
+ 
+.lib select:hover {
+    position: relative; 
+    transform:scale( 1.1)
+    
+}
+
+
+.mang .container {
+    background: rgba(81, 193, 193, 0.701);
+    margin: 150px;
+    border-radius: 15px;
+    width: 650px;
+}
